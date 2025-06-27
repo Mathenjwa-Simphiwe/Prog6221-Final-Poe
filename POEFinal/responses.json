@@ -1,0 +1,18 @@
+[
+    {
+        "keywords": [ "password", "credentials", "login" ],
+        "responses": [
+            "You should use strong passwords with a mix of uppercase, lowercase, numbers and symbols.",
+            "A good practice is to use passphrases instead of passwords. For example: 'BlueCoffeeMug42!'",
+            "Consider using a password manager to generate and store unique passwords for each service."
+        ]
+    },
+    {
+        "keywords": [ "phishing", "scam", "email" ],
+        "responses": [
+            "Phishing is when attackers try to trick you into revealing sensitive information.",
+            "Common phishing signs: urgent requests, spelling errors, suspicious links, and unexpected attachments.",
+            "Always verify the sender's email address and hover over links before clicking."
+        ]
+    }
+]

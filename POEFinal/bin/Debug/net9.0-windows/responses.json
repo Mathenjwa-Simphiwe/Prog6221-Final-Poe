@@ -1,0 +1,46 @@
+[
+  {
+    "keywords": [
+      "password",
+      "credentials"
+    ],
+    "responses": [
+      "You should use strong passwords with a mix of uppercase, lowercase, numbers and symbols.",
+      "A good practice is to use passphrases instead of passwords. For example: \u0027BlueCoffeeMug42!\u0027",
+      "Consider using a password manager to generate and store unique passwords for each service."
+    ]
+  },
+  {
+    "keywords": [
+      "phishing",
+      "scam"
+    ],
+    "responses": [
+      "Phishing is when attackers try to trick you into revealing sensitive information.",
+      "Common phishing signs: urgent requests, spelling errors, suspicious links, and unexpected attachments.",
+      "Always verify the sender\u0027s email address and hover over links before clicking."
+    ]
+  },
+  {
+    "keywords": [
+      "virus",
+      "malware"
+    ],
+    "responses": [
+      "Malware is malicious software designed to harm your computer or steal data.",
+      "To protect against malware: keep software updated, use antivirus, and don\u0027t open suspicious attachments.",
+      "Ransomware encrypts your files and demands payment. Regular backups are the best defense."
+    ]
+  },
+  {
+    "keywords": [
+      "wifi",
+      "network"
+    ],
+    "responses": [
+      "Public Wi-Fi networks can be risky. Avoid accessing sensitive information on them.",
+      "Use a VPN when connecting to public Wi-Fi to encrypt your connection.",
+      "At home, use WPA2 or WPA3 encryption for your Wi-Fi network."
+    ]
+  }
+]

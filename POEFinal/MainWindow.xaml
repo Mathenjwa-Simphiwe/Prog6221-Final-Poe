@@ -1,0 +1,45 @@
+﻿<Window x:Class="POEFinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEFinal"
+        mc:Ignorable="d"
+        Title="Cybersecurity Assistant" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Menu Bar -->
+        <Menu Grid.Row="0">
+            <MenuItem Header="Tasks">
+                <MenuItem Header="Add Task" Click="AddTaskButton_Click"/>
+                <MenuItem Header="View Tasks" Click="ViewTasksButton_Click"/>
+            </MenuItem>
+            <MenuItem Header="Quiz" Click="StartQuizButton_Click"/>
+            <MenuItem Header="Activity Log" Click="ViewLogButton_Click"/>
+        </Menu>
+
+        <!-- Chat Area -->
+        <RichTextBox x:Name="ChatOutputBox" Grid.Row="1" 
+                     IsReadOnly="True" VerticalScrollBarVisibility="Auto"
+                     Margin="5" Padding="10" FontSize="14"/>
+
+        <!-- Input Area -->
+        <Grid Grid.Row="2" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="InputTextBox" Grid.Column="0" 
+                     VerticalContentAlignment="Center" FontSize="14"
+                     KeyDown="InputTextBox_KeyDown"/>
+            <Button x:Name="AskButton" Grid.Column="1" 
+                    Content="Ask" Margin="5,0,0,0" Padding="10,5"
+                    Click="AskButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
